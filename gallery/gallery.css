@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: aqua;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 5px;
+   
+}
+
+.fig{
+    height: 10rem;
+}
+
+img{
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 2px solid green;
+    filter: grayscale(100%);
+    margin: 10px;
+    transition: 0.5s;
+}
+
+img:hover{
+    filter: grayscale(0%);
+    scale: 1.08;
+    filter: drop-shadow(3px 3px 3px gray);
+    object-fit: fill;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gold;
+    font-size: 3rem;
+    text-align: center;
+}

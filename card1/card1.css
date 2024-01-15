@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.wapper{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 400px;
+    width: 60px;
+    object-fit: cover;
+    margin: 100px 2px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    transition: 1.5s;
+    
+}
+
+img:hover{
+    width: 350px;
+    scale: 1.01;
+    object-fit:fill;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+head{
+    height: 5%;
+    width:100vw
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: end;
+    align-items: end;
+    margin: 2rem;
+}
+
+body{
+    height: 95%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.title{
+    font-family: monospace;
+}
+
+.search{
+    justify-self: end;
+    color: grey;
+}
+.box{
+    border: 0.2rem solid rgb(133, 126, 126);
+    padding: 1em;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 2px grey);
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+}
+
+.grey{
+    color: grey;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+head{
+    height: 5%;
+    width:100vw
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: end;
+    align-items: end;
+    margin: 2rem;
+}
+.title{
+    font-family: monospace;
+}
+
+.search{
+    justify-self: end;
+    color: grey;
+}
+
+body{
+    color: black;
+    /* width: 70%; */
+}
+aside{
+    float: right;
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 15%;
+    height: 100vh;
+    margin-left: 1rem;
+}
+
+.links{
+    display: block;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 2em;
+    gap: 1em;
+}
+
+.BOX{
+    border: 1px solid black;
+}
+
+footer{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+address{
+    text-align: end;
+}
